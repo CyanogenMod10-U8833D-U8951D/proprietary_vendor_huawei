@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7627a.so \
     vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/lights.msm7627a.so \
-    vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/huawei/u8833/proprietary/lib/hw/sensors.default.so:system/lib/hw/power.default.so \
     vendor/huawei/u8833/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 	vendor/huawei/u8833/proprietary/lib/libadc.so:system/lib/libadc.so \
@@ -183,3 +182,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
 	vendor/huawei/u8833/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/huawei/u8833/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so
+#    vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/lights.msm7x27a.so
