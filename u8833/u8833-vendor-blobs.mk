@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/huawei/u8833/proprietary/bin/akmd8975:system/bin/akmd8975 \
+    vendor/huawei/u8833/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/huawei/u8833/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/u8833/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/u8833/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -51,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/hw/sensors.default.so:system/lib/hw/power.default.so \
     vendor/huawei/u8833/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 	vendor/huawei/u8833/proprietary/lib/libadc.so:system/lib/libadc.so \
-    vendor/huawei/u8833/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/huawei/u8833/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/huawei/u8833/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
 	vendor/huawei/u8833/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
@@ -174,8 +174,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/huawei/u8833/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/huawei/u8833/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/huawei/u8833/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/huawei/u8833/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/huawei/u8833/proprietary/lib/libshareril.so:system/lib/libshareril.so \
     vendor/huawei/u8833/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/huawei/u8833/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/huawei/u8833/proprietary/lib/libwms.so:system/lib/libwms.so \
