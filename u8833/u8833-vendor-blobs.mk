@@ -17,12 +17,14 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/huawei/u8833/proprietary/bin/akmd8975:system/bin/akmd8975 \
+    vendor/huawei/u8833/proprietary/bin/atserver:system/bin/atserver \
     vendor/huawei/u8833/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/huawei/u8833/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/u8833/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/u8833/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/u8833/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/u8833/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/huawei/u8833/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/u8833/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/huawei/u8833/proprietary/bin/thermald:system/bin/thermald \
     vendor/huawei/u8833/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
@@ -48,8 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7627a.so \
     vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
-    vendor/huawei/u8833/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/lights.msm7627a.so \
-    vendor/huawei/u8833/proprietary/lib/hw/sensors.default.so:system/lib/hw/power.default.so \
+    vendor/huawei/u8833/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7627a.so \
+    vendor/huawei/u8833/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/huawei/u8833/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 	vendor/huawei/u8833/proprietary/lib/libadc.so:system/lib/libadc.so \
     vendor/huawei/u8833/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
