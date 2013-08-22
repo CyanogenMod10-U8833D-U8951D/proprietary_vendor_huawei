@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/u8833/proprietary/bin/cnd:system/bin/cnd \
 	vendor/huawei/u8833/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/u8833/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
+	vendor/huawei/u8833/proprietary/bin/hciattach:system/bin/hciattach \
 	vendor/huawei/u8833/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/huawei/u8833/proprietary/bin/hostapd:system/bin/hostapd \
 	vendor/huawei/u8833/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
@@ -107,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/huawei/u8833/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
 	vendor/huawei/u8833/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
+    vendor/huawei/u8833/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/huawei/u8833/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/huawei/u8833/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/huawei/u8833/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
@@ -136,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
     vendor/huawei/u8833/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/huawei/u8833/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+    vendor/huawei/u8833/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/huawei/u8833/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/huawei/u8833/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/huawei/u8833/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
@@ -172,6 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/huawei/u8833/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/huawei/u8833/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/huawei/u8833/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/huawei/u8833/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/huawei/u8833/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/huawei/u8833/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
